@@ -14,7 +14,7 @@ func main() {
 	for {
 		// Read input from the user
 		reader := bufio.NewReader(os.Stdin)
-		fmt.Print("Enter any calculation (Example: 1 + 2 (or) 2 * 5 -> Please maintain spaces as shown in example): ")
+		fmt.Print("Enter any calculation (Example: 1+2 (or) 2*5 -> Please maintain spaces as shown in example): ")
 		text, _ := reader.ReadString('\n')
 
 		// Trim the newline character from the input
